@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Cart</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <h2>
+        Cart
+    </h2>
 
     <nav>
         <ul>
@@ -23,22 +25,6 @@
             </li>
         </ul>
     </nav>
-
-
-    <p>
-        {{$info}}
-    </p>
-
-    @php
-        $names = ["chiara", "gabriel", "francesco"];
-    @endphp
-
-
-    <ul>
-        @foreach ($names as $nome)
-        <li>{{$nome}}</li>
-        @endforeach
-    </ul>
 </body>
 
 </html>
